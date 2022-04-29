@@ -34,8 +34,8 @@ function Copyright() {
   );
 }
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const cardsArr = [
+// const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const cards = [
   {
     id: 1,
     src: SubTracker,
@@ -169,20 +169,21 @@ github
                     }}
                     // image="https://source.unsplash.com/random"
                     image={card.src}
-                    alt="random"
+                    alt={card.alt}
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Heading
+                      {card.heading}
                     </Typography>
-                    <Typography>
-                      This is a media card. You can use this section to describe
-                      the content.
-                    </Typography>
+                    <Typography>{card.description}</Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small">Deployed Link</Button>
-                    <Button size="small">Github</Button>
+                    <a href={card.deployLink} target="_blank" rel="noreferrer">
+                      <Button size="small">Deployed Link</Button>
+                    </a>
+                    <a href={card.github} target="_blank" rel="noreferrer">
+                      <Button size="small">Github</Button>
+                    </a>
                   </CardActions>
                 </Card>
               </Grid>
