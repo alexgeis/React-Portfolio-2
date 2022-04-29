@@ -39,6 +39,7 @@ const cardsArr = [
   {
     id: 1,
     src: SubTracker,
+    alt: "Subscription tracker homepage",
     heading: "Subscription Tracker",
     description:
       "Track your ongoing payment obligations and budget accordingly",
@@ -48,6 +49,7 @@ const cardsArr = [
   {
     id: 2,
     src: AllPain,
+    alt: "All Pain No Grain homepage",
     heading: "All Pain No Grain",
     description: "Health-focused calendar app to log your goals and schedule",
     deployLink: "https://gentle-everglades-97970.herokuapp.com/",
@@ -57,6 +59,7 @@ const cardsArr = [
     id: 3,
     src: VibeLounge,
     heading: "Vibe Lounge",
+    alt: "Vibe Lounge homepage",
     description:
       "Match your mood to your internet experience and display your mood history",
     deployLink: "https://alexgeis.github.io/VIBE-LOUNGE/",
@@ -164,7 +167,8 @@ github
                       // 16:9
                       pt: "10%",
                     }}
-                    image="https://source.unsplash.com/random"
+                    // image="https://source.unsplash.com/random"
+                    image={card.src}
                     alt="random"
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
