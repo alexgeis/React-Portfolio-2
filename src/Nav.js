@@ -1,3 +1,4 @@
+import userEvent from "@testing-library/user-event";
 import React from "react";
 import GitHubLogo from "./assets/GitHub-Mark-32px.png";
 // import "./Nav.css";

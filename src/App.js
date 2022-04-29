@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import Album from "./Album";
 import Nav from "./Nav";
+// import "./Nav.css";
 
 function App() {
   return (
