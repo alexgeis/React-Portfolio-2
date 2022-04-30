@@ -21,6 +21,7 @@ import SubTracker from "./assets/cache-bandit.png";
 import AllPain from "./assets/all-pain-no-grain.png";
 import VibeLounge from "./assets/Vibe-Lounge-graph.png";
 import WeatherDashboard from "./assets/weather-dashboard-screenshot.png";
+import TextEditorPWA from "./assets/JATE-PWA-screenshot.png";
 
 function Copyright() {
   return (
@@ -74,6 +75,15 @@ const cards = [
     description: "Search for weather in any location",
     deployLink: "https://alexgeis.github.io/Weather-Dashboard/",
     github: "https://github.com/alexgeis/Weather-Dashboard",
+  },
+  {
+    id: 5,
+    src: TextEditorPWA,
+    heading: "Text Editor PWA",
+    alt: "Text Editor PWA homepage",
+    description: "Code editor downloadable as a Progressive Web App",
+    deployLink: "https://pwa-text-editor-ang.herokuapp.com/",
+    github: "https://github.com/alexgeis/PWA-Text-Editor",
   },
 
   //  { id: 4,
