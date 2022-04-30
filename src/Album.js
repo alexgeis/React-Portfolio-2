@@ -22,6 +22,7 @@ import AllPain from "./assets/all-pain-no-grain.png";
 import VibeLounge from "./assets/Vibe-Lounge-graph.png";
 import WeatherDashboard from "./assets/weather-dashboard-screenshot.png";
 import TextEditorPWA from "./assets/JATE-PWA-screenshot.png";
+import NoteTaker from "./assets/note-taker-app";
 
 function Copyright() {
   return (
@@ -84,6 +85,15 @@ const cards = [
     description: "Code editor downloadable as a Progressive Web App",
     deployLink: "https://pwa-text-editor-ang.herokuapp.com/",
     github: "https://github.com/alexgeis/PWA-Text-Editor",
+  },
+  {
+    id: 6,
+    src: NoteTaker,
+    heading: "Note Taker",
+    alt: "Note Taker Application homepage",
+    description: "Track your notes - logged via local storage",
+    deployLink: "https://alexgeis.github.io/Note-Taker/",
+    github: "https://github.com/alexgeis/Note-Taker",
   },
 
   //  { id: 4,
