@@ -22,7 +22,7 @@ import AllPain from "./assets/all-pain-no-grain.png";
 import VibeLounge from "./assets/Vibe-Lounge-graph.png";
 import WeatherDashboard from "./assets/weather-dashboard-screenshot.png";
 import TextEditorPWA from "./assets/JATE-PWA-screenshot.png";
-import NoteTaker from "./assets/note-taker-app";
+import NoteTaker from "./assets/note-taker-app.png";
 
 function Copyright() {
   return (
