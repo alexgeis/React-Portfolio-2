@@ -20,6 +20,7 @@ import "./Album.css";
 import SubTracker from "./assets/cache-bandit.png";
 import AllPain from "./assets/all-pain-no-grain.png";
 import VibeLounge from "./assets/Vibe-Lounge-graph.png";
+import WeatherDashboard from "./assets/weather-dashboard-screenshot.png";
 
 function Copyright() {
   return (
@@ -65,6 +66,16 @@ const cards = [
     deployLink: "https://alexgeis.github.io/VIBE-LOUNGE/",
     github: "https://github.com/alexgeis/VIBE-LOUNGE/",
   },
+  {
+    id: 4,
+    src: WeatherDashboard,
+    heading: "Weather Dashboard",
+    alt: "Weather Dashboard homepage",
+    description: "Search for weather in any location",
+    deployLink: "https://alexgeis.github.io/Weather-Dashboard/",
+    github: "https://github.com/alexgeis/Weather-Dashboard",
+  },
+
   //  { id: 4,
   //     src: ,
   //     heading: ,
