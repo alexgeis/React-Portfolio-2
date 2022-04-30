@@ -23,6 +23,7 @@ import VibeLounge from "./assets/Vibe-Lounge-graph.png";
 import WeatherDashboard from "./assets/weather-dashboard-screenshot.png";
 import TextEditorPWA from "./assets/JATE-PWA-screenshot.png";
 import NoteTaker from "./assets/note-taker-app.png";
+import GitHubLogo from "./assets/GitHub-Mark-32px.png";
 
 function Copyright() {
   return (
@@ -213,7 +214,16 @@ github
                       <Button size="small">Deployed Link</Button>
                     </a>
                     <a href={card.github} target="_blank" rel="noreferrer">
-                      <Button size="small">Github</Button>
+                      {/* <Button size="small">Github</Button> */}
+                      <img
+                        src={GitHubLogo}
+                        alt="git hub logo octocat"
+                        style={{
+                          height: "22px",
+                          width: "22px",
+                          marginLeft: "10px",
+                        }}
+                      />
                     </a>
                   </CardActions>
                 </Card>
@@ -223,7 +233,7 @@ github
         </Container>
       </main>
       {/* Footer */}
-      <Box sx={{ bgcolor: "background.paper", p: 6 }} component="footer">
+      {/* <Box sx={{ bgcolor: "background.paper", p: 6 }} component="footer">
         <Typography variant="h6" align="center" gutterBottom>
           Contact
         </Typography>
@@ -236,7 +246,7 @@ github
           Let's get in touch
         </Typography>
         <Copyright />
-      </Box>
+      </Box> */}
       {/* End footer */}
     </ThemeProvider>
   );
