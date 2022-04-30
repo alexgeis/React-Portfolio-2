@@ -6,8 +6,8 @@ import GitHubLogo from "./assets/GitHub-Mark-32px.png";
 export default function Nav() {
   const navStyle = {
     position: "absolute",
-    top: "10px",
-    left: "10px",
+    top: "15px",
+    left: "15px",
     fontWeight: "300",
     border: "white 2px solid",
     borderRadius: "19px",
@@ -17,19 +17,19 @@ export default function Nav() {
     display: "inline-block",
     position: "relative",
     verticalAlign: "middle",
-    padding: "10px",
+    padding: "10px 0",
     marginLeft: "7px",
     marginRight: "7px",
-    color: "black",
-    fontSize: "15px",
+    color: "white",
+    fontSize: "20px",
     cursor: "pointer",
   };
   return (
     <>
       <header className="navigation" style={navStyle}>
-        <a className="navItemStyle" style={navItemStyle} href="#work">
+        {/* <a className="navItemStyle" style={navItemStyle} href="#work">
           Work
-        </a>
+        </a> */}
         <a className="navItemStyle" style={navItemStyle} href="#contact">
           Contact
         </a>

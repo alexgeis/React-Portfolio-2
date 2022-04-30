@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import Album from "./Album";
 import Nav from "./Nav";
+import Contact from "./Contact";
 // import "./Nav.css";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         </header>
   </div> */}
       <Album />
+      <Contact />
     </>
   );
 }

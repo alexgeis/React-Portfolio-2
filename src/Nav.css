@@ -14,7 +14,11 @@
     padding: 10px;
     margin-left: 7px;
     margin-right: 7px;
-    color: black;
+    color: white;
     font-size: 20px;
     cursor: pointer;
   };
+
+.navItemStyle a {
+  color: white;
+}
