@@ -93,7 +93,7 @@ const cards = [
     heading: "Note Taker",
     alt: "Note Taker Application homepage",
     description: "Track your notes - logged via local storage",
-    deployLink: "https://alexgeis.github.io/Note-Taker/",
+    deployLink: "https://note-taker-ang.herokuapp.com/",
     github: "https://github.com/alexgeis/Note-Taker",
   },
 
@@ -177,7 +177,9 @@ github
               justifyContent="center"
             >
               <Button variant="contained">View My Work</Button>
-              <Button variant="outlined">Get In Touch</Button>
+              <Button variant="outlined" style={{ color: "white" }}>
+                Get In Touch
+              </Button>
             </Stack>
           </Container>
         </Box>
@@ -207,11 +209,15 @@ github
                     <Typography gutterBottom variant="h5" component="h2">
                       {card.heading}
                     </Typography>
-                    <Typography>{card.description}</Typography>
+                    <Typography style={{ marginBottom: 0 }}>
+                      {card.description}
+                    </Typography>
                   </CardContent>
                   <CardActions>
                     <a href={card.deployLink} target="_blank" rel="noreferrer">
-                      <Button size="small">Deployed Link</Button>
+                      <Button size="small" variant="outlined">
+                        Deployed Link
+                      </Button>
                     </a>
                     <a href={card.github} target="_blank" rel="noreferrer">
                       {/* <Button size="small">Github</Button> */}

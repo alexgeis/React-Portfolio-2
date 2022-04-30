@@ -37,6 +37,9 @@ export default function Contact() {
 
   return (
     <>
+      <h1 id="contact" style={{ width: "100px", margin: "20px auto" }}>
+        Contact
+      </h1>
       <form onSubmit={handleSubmit}>
         <Grid container alignItems="center" justify="center" direction="column">
           <Grid item>
