@@ -13,7 +13,7 @@ import Box from "@mui/material/Box";
 // import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
-// import Link from "@mui/material/Link";
+
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "./Album.css";
 //image imports
@@ -24,19 +24,6 @@ import WeatherDashboard from "./assets/weather-dashboard-screenshot.png";
 import TextEditorPWA from "./assets/JATE-PWA-screenshot.png";
 import NoteTaker from "./assets/note-taker-app.png";
 import GitHubLogo from "./assets/GitHub-Mark-32px.png";
-
-// function Copyright() {
-//   return (
-//     <Typography variant="body2" color="text.secondary" align="center">
-//       {"Copyright © "}
-//       <Link color="inherit" href="https://github.com/alexgeis/">
-//         Alex Geis
-//       </Link>{" "}
-//       {new Date().getFullYear()}
-//       {"."}
-//     </Typography>
-//   );
-// }
 
 // const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const cards = [
@@ -96,41 +83,11 @@ const cards = [
     deployLink: "https://note-taker-ang.herokuapp.com/",
     github: "https://github.com/alexgeis/Note-Taker",
   },
-
-  //  { id: 4,
-  //     src: ,
-  //     heading: ,
-  //     description: ,
-  //     deployLink: ,
-  //     github:
-  //  },
-  //  { id: 5,
-  //     src: ,
-  //     heading: ,
-  //     description: ,
-  //     deployLink: ,
-  //     github:
-  //  },
-  //  { id: 6,
-  //     src: ,
-  //     heading: ,
-  //     description: ,
-  //     deployLink: ,
-  //     github:
-  //  },
 ];
 
 const theme = createTheme();
 
 export default function Album(props) {
-  /*
-props
-img src
-heading
-description
-deployed link
-github
-*/
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -177,6 +134,17 @@ github
               <Button variant="outlined" style={{ color: "white" }}>
                 <a href="#contact">Get In Touch</a>
               </Button>
+              <a href="https://github.com/alexgeis/">
+                <img
+                  src={GitHubLogo}
+                  alt="git hub logo octocat"
+                  style={{
+                    height: "40px",
+                    width: "40px",
+                    margin: "10px",
+                  }}
+                />
+              </a>
             </Stack>
           </Container>
         </Box>

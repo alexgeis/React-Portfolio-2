@@ -10,7 +10,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       {/* <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
