@@ -191,7 +191,6 @@ export default function Album(props) {
                       </Button>
                     </a>
                     <a href={card.github} target="_blank" rel="noreferrer">
-                      {/* <Button size="small">Github</Button> */}
                       <img
                         src={GitHubLogo}
                         alt="git hub logo octocat"
