@@ -134,7 +134,11 @@ export default function Album(props) {
               <Button variant="outlined" style={{ color: "white" }}>
                 <a href="#contact">Get In Touch</a>
               </Button>
-              <a href="https://github.com/alexgeis/">
+              <a
+                href="https://github.com/alexgeis/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src={GitHubLogo}
                   alt="git hub logo octocat"
