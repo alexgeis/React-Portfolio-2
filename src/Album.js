@@ -166,10 +166,12 @@ export default function Album(props) {
                 >
                   <CardMedia
                     component="img"
-                    sx={{
-                      // 16:9
-                      pt: "10%",
-                    }}
+                    sx={
+                      {
+                        // 16:9
+                        // pt: "10%",
+                      }
+                    }
                     // image="https://source.unsplash.com/random"
                     image={card.src}
                     alt={card.alt}
