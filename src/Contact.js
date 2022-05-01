@@ -39,7 +39,11 @@ export default function Contact() {
     <>
       <h1
         id="contact"
-        style={{ width: "150px", margin: "10px auto", textAlign: "center" }}
+        style={{
+          width: "150px",
+          margin: "20px auto 0 auto",
+          textAlign: "center",
+        }}
       >
         Contact
       </h1>
@@ -81,7 +85,12 @@ export default function Contact() {
               style={{ marginBottom: "10px" }}
             />
           </Grid>
-          <Button variant="contained" color="primary" type="submit">
+          <Button
+            variant="contained"
+            color="primary"
+            type="submit"
+            style={{ margin: "20px" }}
+          >
             Submit
           </Button>
         </Grid>

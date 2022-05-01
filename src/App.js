@@ -4,6 +4,7 @@ import "./App.css";
 import Album from "./Album";
 import Nav from "./Nav";
 import Contact from "./Contact";
+import Footer from "./Footer";
 // import "./Nav.css";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
   </div> */}
       <Album />
       <Contact />
+      <Footer />
     </>
   );
 }
