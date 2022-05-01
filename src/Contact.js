@@ -37,9 +37,15 @@ export default function Contact() {
 
   return (
     <>
-      <h1 id="contact" style={{ width: "100px", margin: "20px auto" }}>
+      <h1
+        id="contact"
+        style={{ width: "150px", margin: "10px auto", textAlign: "center" }}
+      >
         Contact
       </h1>
+      <h3 style={{ width: "150px", margin: "10px auto", textAlign: "center" }}>
+        Don't be shy
+      </h3>
       <form onSubmit={handleSubmit}>
         <Grid container alignItems="center" justify="center" direction="column">
           <Grid item>
@@ -50,6 +56,7 @@ export default function Contact() {
               type="text"
               value={formValues.name}
               onChange={handleInputChange}
+              style={{ marginBottom: "10px" }}
             />
           </Grid>
           <Grid item>
@@ -60,6 +67,7 @@ export default function Contact() {
               type="email"
               value={formValues.email}
               onChange={handleInputChange}
+              style={{ marginBottom: "10px" }}
             />
           </Grid>
           <Grid item>
@@ -70,6 +78,7 @@ export default function Contact() {
               type="textarea"
               value={formValues.message}
               onChange={handleInputChange}
+              style={{ marginBottom: "10px" }}
             />
           </Grid>
           <Button variant="contained" color="primary" type="submit">
