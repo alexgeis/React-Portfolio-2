@@ -1,7 +1,7 @@
 import * as React from "react";
-import AppBar from "@mui/material/AppBar";
+// import AppBar from "@mui/material/AppBar";
 import Button from "@mui/material/Button";
-import CameraIcon from "@mui/icons-material/PhotoCamera";
+// import CameraIcon from "@mui/icons-material/PhotoCamera";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -10,10 +10,10 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
+// import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
-import Link from "@mui/material/Link";
+// import Link from "@mui/material/Link";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "./Album.css";
 //image imports
@@ -25,18 +25,18 @@ import TextEditorPWA from "./assets/JATE-PWA-screenshot.png";
 import NoteTaker from "./assets/note-taker-app.png";
 import GitHubLogo from "./assets/GitHub-Mark-32px.png";
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {"Copyright © "}
-      <Link color="inherit" href="https://github.com/alexgeis/">
-        Alex Geis
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
+// function Copyright() {
+//   return (
+//     <Typography variant="body2" color="text.secondary" align="center">
+//       {"Copyright © "}
+//       <Link color="inherit" href="https://github.com/alexgeis/">
+//         Alex Geis
+//       </Link>{" "}
+//       {new Date().getFullYear()}
+//       {"."}
+//     </Typography>
+//   );
+// }
 
 // const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const cards = [
@@ -156,17 +156,12 @@ github
               component="h1"
               variant="h2"
               align="center"
-              color="text.primary"
+              color="white"
               gutterBottom
             >
               Alex Geis
             </Typography>
-            <Typography
-              variant="h5"
-              align="center"
-              color="text.secondary"
-              paragraph
-            >
+            <Typography variant="h5" align="center" color="white" paragraph>
               Full-stack developer with a passion for music, coding, and oxford
               commas.
             </Typography>
@@ -176,16 +171,18 @@ github
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained">View My Work</Button>
+              <Button variant="contained">
+                <a href="#work">View My Work</a>
+              </Button>
               <Button variant="outlined" style={{ color: "white" }}>
-                Get In Touch
+                <a href="#contact">Get In Touch</a>
               </Button>
             </Stack>
           </Container>
         </Box>
         <Container sx={{ py: 8 }} maxWidth="md">
           {/* End hero unit */}
-          <Grid container spacing={4}>
+          <Grid id="work" container spacing={4}>
             {cards.map((card) => (
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card
