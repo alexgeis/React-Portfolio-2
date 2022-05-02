@@ -208,22 +208,6 @@ export default function Album(props) {
           </Grid>
         </Container>
       </main>
-      {/* Footer */}
-      {/* <Box sx={{ bgcolor: "background.paper", p: 6 }} component="footer">
-        <Typography variant="h6" align="center" gutterBottom>
-          Contact
-        </Typography>
-        <Typography
-          variant="subtitle1"
-          align="center"
-          color="text.secondary"
-          component="p"
-        >
-          Let's get in touch
-        </Typography>
-        <Copyright />
-      </Box> */}
-      {/* End footer */}
     </ThemeProvider>
   );
 }
