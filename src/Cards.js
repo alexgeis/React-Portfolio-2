@@ -15,7 +15,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import "./Album.css";
+import "./Cards.css";
 //image imports
 import SubTracker from "./assets/cache-bandit.png";
 import AllPain from "./assets/all-pain-no-grain.png";

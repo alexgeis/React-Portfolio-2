@@ -1,7 +1,7 @@
 import React from "react";
 // import logo from "./assets/logo.svg";
 import "./App.css";
-import Album from "./Album";
+import Cards from "./Cards";
 // import Nav from "./Nav";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -19,7 +19,7 @@ function App() {
         {/* <Nav /> */}
         {/* <div className="App">
   </div> */}
-        <Album />
+        <Cards />
       </div>
       <Contact />
       <Footer />
