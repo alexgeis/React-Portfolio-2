@@ -125,8 +125,13 @@ export default function Album(props) {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <a href={card.deployLink} target="_blank" rel="noreferrer">
-                      <Button size="small" variant="outlined">
+                    <a
+                      href={card.deployLink}
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ textDecoration: "none" }}
+                    >
+                      <Button size="small" variant="contained">
                         Deployed Link
                       </Button>
                     </a>

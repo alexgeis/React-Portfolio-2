@@ -4,32 +4,40 @@
                 color: white;
                 background-color: #45caff;
                 border: "0 white solid";
-                /* transition: background-color .5s; */
-                transition: border .5s;
+                transition: background-color .5s;
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
               }
-              #workButton:hover{
-                background-color: rgba(0, 0, 0, 0.486);
-                border: "2px white solid"
-  
-                            }
-                            #workLinkhover{
-                            
-                                color: black
-                                            }
+#workButton:hover{
+background-color: #83dcff;
+/* border: "2px white solid" */
 
-Button#touchButton{
-    text-decoration: none;
+            }
+#touchLink:hover{
+
+    color: black
+                }
+
+#touchButton {
+    border: 2px #45caff solid;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color .5s;
 }
+
+#touchButton:hover{
+    background-color: #83dcff;
+    border: 5px #83dcff solid;
+color: black;
+                }
 
 a.gitHero { 
 	transition: all .2s ease-in-out; 
 }
 a.gitHero:hover { 
-    	transform: scale(1.5); 
+    	transform: scale(1.1); 
     }
 
 
-.MuiButtonBase-root-MuiButton-root:hover {
+/* .MuiButtonBase-root-MuiButton-root:hover {
     background-color: green;
   color: white;
-}
+} */

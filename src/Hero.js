@@ -79,14 +79,18 @@ export default function Hero(props) {
               id="touchButton"
               variant="outlined"
               style={{
-                color: "white",
-                textDecoration: "none",
                 borderRadius: "15px",
                 borderWidth: "4px",
                 cursor: "pointer",
               }}
             >
-              <a href="#contact">Get In Touch</a>
+              <a
+                id="touchLink"
+                href="#contact"
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                Get In Touch
+              </a>
             </Button>
             <a
               className="gitHero"
