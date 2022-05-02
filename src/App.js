@@ -5,11 +5,13 @@ import Album from "./Album";
 import Nav from "./Nav";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Hero from "./Hero";
 // import "./Nav.css";
 
 function App() {
   return (
     <>
+      <Hero />
       {/* <Nav /> */}
       {/* <div className="App">
         <header className="App-header">
