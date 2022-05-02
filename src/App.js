@@ -11,25 +11,13 @@ import Hero from "./Hero";
 function App() {
   return (
     <>
-      <Hero />
-      {/* <Nav /> */}
-      {/* <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div style={{ background: "linear-gradient(135deg,#ff1b6b,#45caff)" }}>
+        <Hero />
+        {/* <Nav /> */}
+        {/* <div className="App">
   </div> */}
-      <Album />
+        <Album />
+      </div>
       <Contact />
       <Footer />
     </>
