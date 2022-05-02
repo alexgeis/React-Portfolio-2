@@ -10,7 +10,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
-import "./Album.css";
+import "./Cards.css";
 import GitHubLogo from "./assets/GitHub-Mark-32px.png";
 
 export default function Hero(props) {
