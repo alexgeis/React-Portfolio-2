@@ -2,7 +2,7 @@ import React from "react";
 // import logo from "./assets/logo.svg";
 import "./App.css";
 import Album from "./Album";
-import Nav from "./Nav";
+// import Nav from "./Nav";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Hero from "./Hero";
@@ -11,7 +11,10 @@ import Hero from "./Hero";
 function App() {
   return (
     <>
-      <div style={{ background: "linear-gradient(135deg,#ff1b6b,#45caff)" }}>
+      <div
+        style={{ background: "linear-gradient(135deg,#ff1b6b,#45caff)" }}
+        // style={{ background: "black" }}
+      >
         <Hero />
         {/* <Nav /> */}
         {/* <div className="App">

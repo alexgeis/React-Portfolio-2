@@ -1,0 +1,35 @@
+#workButton {
+    border-radius: 15px;
+                cursor: pointer;
+                color: white;
+                background-color: #45caff;
+                border: "0 white solid";
+                /* transition: background-color .5s; */
+                transition: border .5s;
+              }
+              #workButton:hover{
+                background-color: rgba(0, 0, 0, 0.486);
+                border: "2px white solid"
+  
+                            }
+                            #workLinkhover{
+                            
+                                color: black
+                                            }
+
+Button#touchButton{
+    text-decoration: none;
+}
+
+a.gitHero { 
+	transition: all .2s ease-in-out; 
+}
+a.gitHero:hover { 
+    	transform: scale(1.5); 
+    }
+
+
+.MuiButtonBase-root-MuiButton-root:hover {
+    background-color: green;
+  color: white;
+}
