@@ -17,8 +17,6 @@ function App() {
       >
         <Hero />
         {/* <Nav /> */}
-        {/* <div className="App">
-  </div> */}
         <Cards />
       </div>
       <Contact />
