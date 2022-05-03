@@ -1,11 +1,11 @@
 import React from "react";
 // import logo from "./assets/logo.svg";
 import "./App.css";
-import Cards from "./Cards";
+import Cards from "./components/Cards";
 // import Nav from "./Nav";
-import Contact from "./Contact";
-import Footer from "./Footer";
-import Hero from "./Hero";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 // import "./Nav.css";
 
 function App() {
