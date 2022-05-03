@@ -25,9 +25,11 @@ package-lock.json
 # other
 .env
 .env.development
+.npm/
 
 # Typescript
 .tsbuildinfo
 
 # production
 /build
+build
