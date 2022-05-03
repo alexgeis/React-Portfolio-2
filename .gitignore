@@ -18,8 +18,10 @@ lib/
 .DS_Store
 DS_store
 
-# other
+# dependecy directories
 /node_modules
+
+# other
 .env
 .env.development
 
