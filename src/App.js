@@ -1,12 +1,10 @@
 import React from "react";
-// import logo from "./assets/logo.svg";
 import "./App.css";
 import Cards from "./components/Cards";
 // import Nav from "./Nav";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-// import "./Nav.css";
 
 function App() {
   return (
@@ -24,5 +22,4 @@ function App() {
     </>
   );
 }
-
 export default App;
