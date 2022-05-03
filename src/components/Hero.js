@@ -11,7 +11,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
 import "./Cards.css";
-import GitHubLogo from "./assets/GitHub-Mark-32px.png";
+import GitHubLogo from "../assets/GitHub-Mark-32px.png";
 
 export default function Hero(props) {
   return (

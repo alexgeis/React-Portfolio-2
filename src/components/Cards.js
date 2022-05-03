@@ -17,13 +17,13 @@ import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "./Cards.css";
 //image imports
-import SubTracker from "./assets/cache-bandit.png";
-import AllPain from "./assets/all-pain-no-grain.png";
-import VibeLounge from "./assets/Vibe-Lounge-graph.png";
-import WeatherDashboard from "./assets/weather-dashboard-screenshot.png";
-import TextEditorPWA from "./assets/JATE-PWA-screenshot.png";
-import NoteTaker from "./assets/note-taker-app.png";
-import GitHubLogo from "./assets/GitHub-Mark-32px.png";
+import SubTracker from "../assets/cache-bandit.png";
+import AllPain from "../assets/all-pain-no-grain.png";
+import VibeLounge from "../assets/Vibe-Lounge-graph.png";
+import WeatherDashboard from "../assets/weather-dashboard-screenshot.png";
+import TextEditorPWA from "../assets/JATE-PWA-screenshot.png";
+import NoteTaker from "../assets/note-taker-app.png";
+import GitHubLogo from "../assets/GitHub-Mark-32px.png";
 
 // const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const cards = [

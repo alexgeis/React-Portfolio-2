@@ -18,13 +18,13 @@ background-color: #83dcff;
                 }
 
 #touchButton {
-    border: 2px #45caff solid;
+    border: 2px #83dcff solid;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: background-color .5s;
 }
 
 #touchButton:hover{
-    background-color: #83dcff;
+    background-color: #45caff;
     border: 5px #83dcff solid;
 color: black;
                 }

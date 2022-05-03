@@ -9,6 +9,11 @@ module.exports = {
     filename: "bundle.js",
   },
   mode: process.env.NODE_ENV === "production" ? "production" : "development",
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000,
+  },
   module: {
     rules: [
       {
@@ -34,7 +39,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, "src", "index.html"),
+      template: path.join(__dirname, "public", "index.html"),
     }),
 
     new ProvidePlugin({
