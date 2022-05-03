@@ -14,3 +14,7 @@ DS_store
 # other
 /node_modules
 .env
+.env.development
+
+# Typescript
+.tsbuildinfo
