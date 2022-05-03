@@ -20,6 +20,7 @@ DS_store
 
 # dependecy directories
 /node_modules
+package-lock.json
 
 # other
 .env
