@@ -1,0 +1,30 @@
+{
+  "name": "react-portfolio-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/server.js --ignore client",
+    "develop": "concurrently \"cd server && npm run start\" \"cd client && npm run start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexgeis/React-Portfolio-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexgeis/React-Portfolio-2/issues"
+  },
+  "homepage": "https://github.com/alexgeis/React-Portfolio-2#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  },
+  "engines": {
+    "node": "16.x.x"
+  }
+}
