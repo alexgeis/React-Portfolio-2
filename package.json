@@ -22,14 +22,12 @@
   },
   "homepage": "https://github.com/alexgeis/React-Portfolio-2#readme",
   "dependencies": {
-    "concurrently": "^7.1.0"
-  },
-  "engines": {
-    "node": "16.x.x"
-  },
-  "devDependencies": {
+    "concurrently": "^7.1.0",
     "webpack": "^5.72.0",
     "webpack-dev-server": "^4.8.1",
     "webpack-cli": "^4.9.2"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
