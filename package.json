@@ -4,7 +4,7 @@
   "description": "Alex Geis Portfolio",
   "main": "./server/index.js",
   "scripts": {
-    "start": "node server/server.js --ignore client",
+    "start": "node server/index.js --ignore client",
     "develop": "concurrently \"cd server && npm run start\" \"cd client && npm run start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
