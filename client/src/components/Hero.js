@@ -70,24 +70,16 @@ export default function Hero(props) {
               //     cursor: "pointer",
               //   }}
             >
-              <a
-                id="workLink"
-                href="#work"
-                style={{ textDecoration: "none", color: "black" }}
-              >
+              <a id="workLink" href="#work">
                 View Work
               </a>
             </Button>
             <Button
               id="touchButton"
               variant="outlined"
-              style={{
-                borderRadius: "15px",
-                borderWidth: "4px",
-                cursor: "pointer",
-                backgroundColor: "rgba(255, 255, 255, 0.30)",
-              }}
+              style={{ borderRadius: "15px" }}
             >
+              ,{" "}
               <a
                 id="touchLink"
                 href="#contact"
@@ -99,18 +91,12 @@ export default function Hero(props) {
             <Button
               id="resumeButton"
               variant="contained"
-              style={{
-                borderWidth: "4px",
-                borderRadius: "15px",
-                backgroundColor: "rgba(0, 0, 0, 0.30)",
-                cursor: "pointer",
-                padding: "0 20px",
-              }}
+              style={{ borderRadius: "15px" }}
             >
               <a
                 id="resumeLink"
                 href="https://pdfhost.io/v/4GsvwgaSl_Alex_Geis_Resume"
-                style={{ textDecoration: "none", color: "white" }}
+                style={{ textDecoration: "none" }}
                 target="_blank"
                 rel="noreferrer"
               >

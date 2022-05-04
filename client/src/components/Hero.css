@@ -3,24 +3,38 @@
                 cursor: pointer;
                 color: white;
                 background-color: #45caff;
-                border: "0 white solid";
-                transition: background-color .5s;
-                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+                /* border: 0 white solid; */
+                border-color: #45caff;
+                /* transition: background-color .5s; */
+                -webkit-transition: all 150ms ease-in-out;
+                transition: all 150ms ease-in-out;
+                /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+                box-shadow: 0 0 2px 2px #45caff , 0 0 0 0 #45caff;
               }
 #workButton:hover{
 background-color: #83dcff;
+/* background-color: #ff1b6b; */
+box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+/* background-color: linear-gradient(135deg,#ff1b6b,#45caff);; */
 /* border: "2px white solid" */
+}
 
-            }
+#workLink {
+    color:black;
+    text-decoration: none;
+}
+
 /* #touchLink:hover{
 
     color: black
-                } */
+} */
 
 #touchButton {
-    border: 2px #83dcff solid;
+    border: 4px #83dcff solid;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: background-color .5s;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.30);
 }
 
 #touchButton:hover{
@@ -28,14 +42,23 @@ background-color: #83dcff;
 }
 
 #resumeButton {
-    border: 2px #83dcff solid;
+    border: 4px #83dcff solid;
+    border-radius: "15px";
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: background-color .5s;
+    background-color: rgba(255, 255, 255, 0.30);
+    cursor: pointer;
+    padding: 0 20px;
 }
 #resumeButton:hover {
-    background-color: #83dcff;
+    background-color: #83dcff;    
 }
-
+#resumeLink {
+    color: black;
+}
+/* #resumeLink:hover {
+    color: black;
+} */
 a.gitHero { 
 	transition: all .2s ease-in-out; 
 }
