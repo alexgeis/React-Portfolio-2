@@ -24,7 +24,7 @@ background-color: #83dcff;
 }
 
 #touchButton:hover{
-    background-color: #45caff;
+    background-color: #83dcff;
 }
 
 #resumeButton {
@@ -33,9 +33,7 @@ background-color: #83dcff;
     transition: background-color .5s;
 }
 #resumeButton:hover {
-    background-color: #45caff;
-    border: 5px #83dcff solid;
-    color: black;
+    background-color: #83dcff;
 }
 
 a.gitHero { 
