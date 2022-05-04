@@ -30,6 +30,9 @@ export default function Hero(props) {
           pt: 11,
           pb: 4,
         }}
+        // xs={12}
+        // sm={6}
+        // md={4}
       >
         <Container maxWidth="sm">
           <Typography
@@ -82,14 +85,36 @@ export default function Hero(props) {
                 borderRadius: "15px",
                 borderWidth: "4px",
                 cursor: "pointer",
+                backgroundColor: "rgba(255, 255, 255, 0.30)",
               }}
             >
               <a
                 id="touchLink"
                 href="#contact"
-                style={{ color: "white", textDecoration: "none" }}
+                style={{ color: "black", textDecoration: "none" }}
               >
                 Get In Touch
+              </a>
+            </Button>
+            <Button
+              id="resumeButton"
+              variant="contained"
+              style={{
+                borderWidth: "4px",
+                borderRadius: "15px",
+                backgroundColor: "rgba(0, 0, 0, 0.30)",
+                cursor: "pointer",
+                padding: "0 20px",
+              }}
+            >
+              <a
+                id="resumeLink"
+                href="https://pdfhost.io/v/4GsvwgaSl_Alex_Geis_Resume"
+                style={{ textDecoration: "none", color: "white" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
               </a>
             </Button>
             <a
@@ -111,25 +136,6 @@ export default function Hero(props) {
                 }}
               />
             </a>
-            <Button
-              id="resumeButton"
-              variant="contained"
-              //   style={{
-              //     borderRadius: "15px",
-              //     backgroundColor: "black",
-              //     cursor: "pointer",
-              //   }}
-            >
-              <a
-                id="resumeLink"
-                href="https://pdfhost.io/v/4GsvwgaSl_Alex_Geis_Resume"
-                style={{ textDecoration: "none", color: "white" }}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Resume
-              </a>
-            </Button>
           </Stack>
         </Container>
       </Box>
