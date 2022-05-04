@@ -10,7 +10,8 @@
                 transition: all 150ms ease-in-out;
                 /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
                 box-shadow: 0 0 2px 2px #45caff , 0 0 0 0 #45caff;
-              }
+}
+
 #workButton:hover{
 background-color: #83dcff;
 /* background-color: #ff1b6b; */
