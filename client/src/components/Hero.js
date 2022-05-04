@@ -72,12 +72,12 @@ export default function Hero(props) {
                 href="#work"
                 style={{ textDecoration: "none", color: "black" }}
               >
-                View My Work
+                View Work
               </a>
             </Button>
             <Button
               id="resumeButton"
-              variant="text"
+              variant="contained"
               //   style={{
               //     borderRadius: "15px",
               //     backgroundColor: "black",
