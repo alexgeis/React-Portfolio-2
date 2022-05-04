@@ -5,7 +5,8 @@ const { ProvidePlugin } = require("webpack");
 module.exports = {
   entry: path.join(__dirname, "src", "index.js"),
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "build/"),
+    publicPath: "/",
     filename: "bundle.js",
   },
   mode: process.env.NODE_ENV === "production" ? "production" : "development",
