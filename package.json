@@ -26,5 +26,9 @@
   },
   "engines": {
     "node": "16.x.x"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-dev-server": "^4.8.1"
   }
 }
