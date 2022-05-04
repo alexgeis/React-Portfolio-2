@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+// import {useRef } from "react";
+import { send } from "emailjs-com";
+// import emailjs from '@emailjs/browser';
+
 // import Grid from "@material-ui/core/Grid";
 import Grid from "@mui/material/Grid";
 // import TextField from "@material-ui/core/TextField";
@@ -33,6 +37,13 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formValues);
+    send("service_4zrp0vu", "template_zfyylxo", formValues, "ZD7n5BJBesxO0h3x4")
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
   };
 
   return (

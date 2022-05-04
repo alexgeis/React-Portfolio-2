@@ -76,6 +76,25 @@ export default function Hero(props) {
               </a>
             </Button>
             <Button
+              id="resumeButton"
+              variant="text"
+              //   style={{
+              //     borderRadius: "15px",
+              //     backgroundColor: "black",
+              //     cursor: "pointer",
+              //   }}
+            >
+              <a
+                id="resumeLink"
+                href="https://pdfhost.io/v/4GsvwgaSl_Alex_Geis_Resume"
+                style={{ textDecoration: "none", color: "black" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
+              </a>
+            </Button>
+            <Button
               id="touchButton"
               variant="outlined"
               style={{
