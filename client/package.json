@@ -44,7 +44,7 @@
   "scripts": {
     "start": "react-scripts start",
     "dev": "webpack serve",
-    "build": "NODE_ENV=production webpack",
+    "build": "webpack build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
