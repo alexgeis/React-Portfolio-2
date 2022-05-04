@@ -9,6 +9,7 @@ yarn-error.log*
 bin/
 dist/
 lib/
+/lib
 
 # editors
 *.swp
