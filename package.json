@@ -2,7 +2,7 @@
   "name": "geis-portfolio-2",
   "version": "1.0.0",
   "description": "Alex Geis Portfolio",
-  "main": "server/index.js",
+  "main": "./server/index.js",
   "scripts": {
     "start": "node server/server.js --ignore client",
     "develop": "concurrently \"cd server && npm run start\" \"cd client && npm run start\"",
