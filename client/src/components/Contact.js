@@ -7,6 +7,7 @@ import { send } from "emailjs-com";
 import Grid from "@mui/material/Grid";
 // import TextField from "@material-ui/core/TextField";
 import TextField from "@mui/material/TextField";
+import TextareaAutosize from "@mui/material/TextareaAutosize";
 // import FormControlLabel from "@material-ui/core/FormControlLabel";
 // import FormControl from "@material-ui/core/FormControl";
 // import FormLabel from "@material-ui/core/FormLabel";
@@ -86,13 +87,25 @@ export default function Contact() {
             />
           </Grid>
           <Grid item>
-            <TextField
+            {/* MESSAGE TEXT FIELD OPTION */}
+            {/* <TextField
               id="message-input"
               name="message"
               label="Message"
               type="textarea"
               value={formValues.message}
               onChange={handleInputChange}
+              style={{ marginBottom: "10px" }}
+            /> */}
+            <TextareaAutosize
+              aria-label="message"
+              id="message-input"
+              name="message"
+              minRows={3}
+              placeholder="Write message here..."
+              value={formValues.message}
+              onChange={handleInputChange}
+              // style={{ width: 200 }}
               style={{ marginBottom: "10px" }}
             />
           </Grid>
