@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-// import {useRef } from "react";
-import { send } from "emailjs-com";
-// import emailjs from '@emailjs/browser';
+// import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
+// import { send } from "emailjs-com";
 
 // import Grid from "@material-ui/core/Grid";
 import Grid from "@mui/material/Grid";
@@ -20,6 +20,8 @@ import Button from "@mui/material/Button";
 // import Button from "@material-ui/core/Button";
 
 export default function Contact() {
+  const form = useRef();
+
   const defaultValues = {
     name: "",
     email: "",
@@ -37,14 +39,39 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formValues);
-    send("service_4zrp0vu", "template_zfyylxo", formValues, "ZD7n5BJBesxO0h3x4")
-      .then((response) => {
-        console.log("SUCCESS!", response.status, response.text);
-      })
-      .catch((err) => {
-        console.log("FAILED...", err);
-      });
+    // console.log(formValues);
+
+    //validation
+    if (!formValues.name || !formValues.email || !formValues.message) {
+      alert("Please ensure all fields contain content!");
+    }
+
+    emailjs
+      .sendForm(
+        "service_4zrp0vu",
+        "template_zfyylxo",
+        form.current,
+        "ZD7n5BJBesxO0h3x4"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    alert("Thanks for the message - I'll get back to you shortly ♡");
+    setFormValues(defaultValues);
+    //SEND method - OLD
+    // send("service_4zrp0vu", "template_zfyylxo", formValues, "ZD7n5BJBesxO0h3x4")
+    //   .then((response) => {
+    //     console.log("SUCCESS!", response.status, response.text);
+    //   })
+    //   .catch((err) => {
+    //     console.log("FAILED...", err);
+    //   });
   };
 
   return (
@@ -62,13 +89,13 @@ export default function Contact() {
       <h3 style={{ width: "150px", margin: "10px auto", textAlign: "center" }}>
         Don't be shy
       </h3>
-      <form onSubmit={handleSubmit}>
+      <form ref={form} onSubmit={handleSubmit}>
         <Grid container alignItems="center" justify="center" direction="column">
           <Grid item>
             <TextField
               id="name-input"
               name="name"
-              label="Name"
+              label="Name (required)"
               type="text"
               value={formValues.name}
               onChange={handleInputChange}
@@ -79,7 +106,7 @@ export default function Contact() {
             <TextField
               id="email-input"
               name="email"
-              label="Email"
+              label="Email (required)"
               type="email"
               value={formValues.email}
               onChange={handleInputChange}
@@ -102,7 +129,7 @@ export default function Contact() {
               id="message-input"
               name="message"
               minRows={3}
-              placeholder="Write message here..."
+              placeholder="Write message here... (required)"
               value={formValues.message}
               onChange={handleInputChange}
               // style={{ width: 200 }}
