@@ -79,7 +79,6 @@ export default function Hero(props) {
               variant="outlined"
               style={{ borderRadius: "15px" }}
             >
-              ,{" "}
               <a
                 id="touchLink"
                 href="#contact"
