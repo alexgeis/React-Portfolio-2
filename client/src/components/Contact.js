@@ -64,14 +64,6 @@ export default function Contact() {
 
     alert("Thanks for the message - I'll get back to you shortly ♡");
     setFormValues(defaultValues);
-    //SEND method - OLD
-    // send("service_4zrp0vu", "template_zfyylxo", formValues, "ZD7n5BJBesxO0h3x4")
-    //   .then((response) => {
-    //     console.log("SUCCESS!", response.status, response.text);
-    //   })
-    //   .catch((err) => {
-    //     console.log("FAILED...", err);
-    //   });
   };
 
   return (
