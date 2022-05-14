@@ -85,5 +85,9 @@ a.gitHero:hover {
     #touchButton,
     #resumeButton {
     margin: 0;
+}  
+.gitHero {
+    display: flex;
+    justify-content: center;
 }
   }
