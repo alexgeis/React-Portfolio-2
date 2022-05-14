@@ -18,6 +18,7 @@ import TextareaAutosize from "@mui/material/TextareaAutosize";
 // import Slider from "@material-ui/core/Slider";
 import Button from "@mui/material/Button";
 // import Button from "@material-ui/core/Button";
+import "./Contact.css";
 
 export default function Contact() {
   const form = useRef();
