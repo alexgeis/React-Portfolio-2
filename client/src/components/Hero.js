@@ -54,7 +54,7 @@ export default function Hero(props) {
             spacing={2}
             justifyContent="center"
             // alignItems="center"
-            className="btnContainer"
+            id="btnContainer"
             style={{
               //   border: "white 2px solid",
               borderRadius: "15px",

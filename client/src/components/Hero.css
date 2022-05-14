@@ -74,11 +74,13 @@ a.gitHero:hover {
 } */
 
 @media only screen and (max-width: 600px) {
-    .btnContainer {
-      display: flex;
+    #btnContainer {
       flex-direction: column;
+      gap: 15px;
+      align-items: center;
+      width: 300px;
     }
     .btn {
-        flex:1;
+        /* flex:1; */
     }
   }
