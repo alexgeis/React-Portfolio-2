@@ -78,9 +78,12 @@ a.gitHero:hover {
       flex-direction: column;
       gap: 15px;
       align-items: center;
-      width: 300px;
     }
     .btn {
-        /* flex:1; */
+        width: 300px;
     }
+    #touchButton,
+    #resumeButton {
+    margin: 0;
+}
   }
