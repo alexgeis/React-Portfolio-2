@@ -54,6 +54,7 @@ export default function Hero(props) {
             spacing={2}
             justifyContent="center"
             // alignItems="center"
+            className="btnContainer"
             style={{
               //   border: "white 2px solid",
               borderRadius: "15px",
@@ -62,6 +63,7 @@ export default function Hero(props) {
             }}
           >
             <Button
+              className="btn"
               id="workButton"
               variant="contained"
               //   style={{
@@ -75,6 +77,7 @@ export default function Hero(props) {
               </a>
             </Button>
             <Button
+              className="btn"
               id="touchButton"
               variant="outlined"
               style={{ borderRadius: "15px" }}
@@ -88,6 +91,7 @@ export default function Hero(props) {
               </a>
             </Button>
             <Button
+              className="btn"
               id="resumeButton"
               variant="contained"
               style={{ borderRadius: "15px" }}
@@ -103,7 +107,7 @@ export default function Hero(props) {
               </a>
             </Button>
             <a
-              className="gitHero"
+              className="btn gitHero"
               href="https://github.com/alexgeis/"
               target="_blank"
               rel="noreferrer"

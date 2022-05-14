@@ -72,3 +72,13 @@ a.gitHero:hover {
     background-color: green;
   color: white;
 } */
+
+@media only screen and (max-width: 600px) {
+    .btnContainer {
+      display: flex;
+      flex-direction: column;
+    }
+    .btn {
+        flex:1;
+    }
+  }
