@@ -18,7 +18,8 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "./Cards.css";
 //image imports
 import SubTracker from "../assets/cache-bandit.png";
-import AllPain from "../assets/all-pain-no-grain.png";
+// import AllPain from "../assets/all-pain-no-grain.png";
+import etchSketch from "../assets/etch-sketch-screenshot.png";
 import todoApp from "../assets/todo-app-screenshot.png";
 import VibeLounge from "../assets/Vibe-Lounge-graph.png";
 import WeatherDashboard from "../assets/weather-dashboard-screenshot.png";
@@ -77,12 +78,12 @@ const cards = [
 	},
 	{
 		id: 6,
-		src: NoteTaker,
-		heading: "Note Taker",
-		alt: "Note Taker Application homepage",
-		description: "Track your notes - logged via local storage",
-		deployLink: "https://note-taker-ang.herokuapp.com/",
-		github: "https://github.com/alexgeis/Note-Taker",
+		src: etchSketch,
+		heading: "Etch-a-Sketch",
+		alt: "NoEtch-a-Sketch screenshot",
+		description: "Etch-a-Sketch web application",
+		deployLink: "alexgeis.github.io/Etch-a-Sketch/",
+		github: "https://github.com/alexgeis/Etch-a-Sketch",
 	},
 ];
 
