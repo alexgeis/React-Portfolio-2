@@ -19,6 +19,7 @@ import "./Cards.css";
 //image imports
 import SubTracker from "../assets/cache-bandit.png";
 import AllPain from "../assets/all-pain-no-grain.png";
+import todoApp from "../assets/todo-app-screenshot.png";
 import VibeLounge from "../assets/Vibe-Lounge-graph.png";
 import WeatherDashboard from "../assets/weather-dashboard-screenshot.png";
 import TextEditorPWA from "../assets/JATE-PWA-screenshot.png";
@@ -39,12 +40,12 @@ const cards = [
 	},
 	{
 		id: 2,
-		src: AllPain,
-		alt: "All Pain No Grain homepage",
-		heading: "All Pain No Grain",
-		description: "Health-focused calendar app to log your goals and schedule",
-		deployLink: "https://gentle-everglades-97970.herokuapp.com/",
-		github: "https://github.com/alexgeis/All-Pain-No-Gain",
+		src: todoApp,
+		alt: "To-do Application Screenshot",
+		heading: "To-do Application",
+		description: "Todo list application with project organization.",
+		deployLink: "alexgeis.github.io/todo-list/",
+		github: "https://github.com/alexgeis/todo-list",
 	},
 	{
 		id: 3,
