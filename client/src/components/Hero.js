@@ -49,7 +49,9 @@ export default function Hero(props) {
 						commas.
 					</Typography>
 					<Typography variant="h5" align="center" color="white" paragraph>
-						<a href="siegxela@gmail.com">siegxela@gmail.com</a>
+						<a href="siegxela@gmail.com" id="heroEmail">
+							siegxela@gmail.com
+						</a>
 					</Typography>
 					<Stack
 						// sx={{ pt: 4 }}

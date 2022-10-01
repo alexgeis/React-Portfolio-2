@@ -67,6 +67,9 @@ a.gitHero:hover {
     	transform: scale(1.1); 
     }
 
+a#heroEmail {
+    text-decoration: none;
+}
 
 /* .MuiButtonBase-root-MuiButton-root:hover {
     background-color: green;
