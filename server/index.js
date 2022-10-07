@@ -4,8 +4,14 @@ const path = require("path");
 
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.static(path.join(__dirname + "/public")));
 
-app.listen(PORT);
+app.get("/", (req, res) => {
+	res.sendFile(path.join(__dirname, "..", "client", "build", "index.html"));
+});
+
+app.listen(PORT, () => {
+	console.log(`API server running on port ${PORT}!`);
+});
