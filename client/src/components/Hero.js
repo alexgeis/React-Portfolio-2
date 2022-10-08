@@ -14,6 +14,21 @@ import "./Cards.css";
 import GitHubLogo from "../assets/GitHub-Mark-32px.png";
 
 export default function Hero(props) {
+	function generateCopyMsg() {}
+
+	function handleCopy() {
+		navigator.clipboard.writeText("siegxela@gmail.com").then(
+			function () {
+				document.getElementById("heroEmail").select();
+				console.log("Async: Copying to clipboard was successful!");
+			},
+			function (err) {
+				alert("Clipboard permissions don't allow copy");
+				console.error("Async: Could not copy text: ", err);
+			}
+		);
+	}
+
 	return (
 		<>
 			{/* <AppBar position="relative">
@@ -49,9 +64,30 @@ export default function Hero(props) {
 						commas.
 					</Typography>
 					<Typography variant="h5" align="center" color="white" paragraph>
-						<a href="siegxela@gmail.com" id="heroEmail">
+						<a href="mailto:siegxela@gmail.com" id="heroEmail">
 							siegxela@gmail.com
 						</a>
+						<Button
+							className="btn"
+							id="emailCopyButton"
+							variant="outlined"
+							style={{
+								borderRadius: "15px",
+								width: "10px",
+								height: "10px",
+								marginLeft: "1rem",
+								padding: "1rem",
+							}}
+							onClick={handleCopy}
+						>
+							{/* <a
+								id="emailLink"
+								href="mailto:siegxela@gmail.com"
+								style={{ color: "black", textDecoration: "none" }}
+							>
+							</a> */}
+							copy
+						</Button>
 					</Typography>
 					<Stack
 						// sx={{ pt: 4 }}

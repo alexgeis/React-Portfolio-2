@@ -5,6 +5,11 @@
 }
 #heroEmail:hover {
     color: #45caff;
+    position: relative;
+}
+
+#emailCopyButton {
+    color: white;
 }
 
 #workButton {
