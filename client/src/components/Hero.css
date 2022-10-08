@@ -12,6 +12,26 @@
     color: white;
 }
 
+#copyEmailMsg {
+    font-size: .6rem;
+    background-color: white;
+    color: black;
+    padding: .1rem .2rem;
+    width: 100px;
+    position: absolute;
+    top: -21px;
+    right: 0;
+    animation: fadeIn 1s;  
+    transition: opacity 1s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.removed {
+    opacity: 0;
+}
+
 #workButton {
     border-radius: 15px;
                 cursor: pointer;

@@ -14,12 +14,29 @@ import "./Cards.css";
 import GitHubLogo from "../assets/GitHub-Mark-32px.png";
 
 export default function Hero(props) {
-	function generateCopyMsg() {}
+	function generateCopyMsg() {
+		const emailCopyBtn = document.getElementById("emailCopyButton");
+		const msgDiv = document.createElement("div");
+		msgDiv.classList.remove("removed");
+		msgDiv.setAttribute("id", "copyEmailMsg");
+		msgDiv.textContent = "Email copied!";
+
+		emailCopyBtn.appendChild(msgDiv);
+
+		const timeoutAmt = 1000 * 2;
+		setTimeout(() => {
+			msgDiv.classList.add("removed");
+			msgDiv.addEventListener("transitionend", () =>
+				emailCopyBtn.removeChild(msgDiv)
+			);
+		}, timeoutAmt);
+	}
 
 	function handleCopy() {
 		navigator.clipboard.writeText("siegxela@gmail.com").then(
 			function () {
-				document.getElementById("heroEmail").select();
+				// document.getElementById("heroEmail").select();
+				generateCopyMsg();
 				console.log("Async: Copying to clipboard was successful!");
 			},
 			function (err) {

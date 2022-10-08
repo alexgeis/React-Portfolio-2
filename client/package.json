@@ -2,7 +2,7 @@
   "name": "geis-portfolio",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3000",
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
