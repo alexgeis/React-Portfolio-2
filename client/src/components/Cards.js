@@ -20,7 +20,8 @@ import "./Cards.css";
 import SubTracker from "../assets/cache-bandit.png";
 // import AllPain from "../assets/all-pain-no-grain.png";
 import etchSketch from "../assets/etch-sketch-screenshot.png";
-import todoApp from "../assets/todo-app-screenshot.png";
+// import todoApp from "../assets/todo-app-screenshot.png";
+import pokemonGame from "../assets/pokemon-game-screenshot.png";
 import VibeLounge from "../assets/Vibe-Lounge-graph.png";
 import WeatherDashboard from "../assets/weather-dashboard-screenshot.png";
 import TextEditorPWA from "../assets/JATE-PWA-screenshot.png";
@@ -41,12 +42,12 @@ const cards = [
 	},
 	{
 		id: 2,
-		src: todoApp,
-		alt: "To-do Application Screenshot",
-		heading: "To-do Application",
-		description: "Todo list application with project organization",
-		deployLink: "alexgeis.github.io/todo-list/",
-		github: "https://github.com/alexgeis/todo-list",
+		src: pokemonGame,
+		alt: "Pokemon Game Screenshot",
+		heading: "Pokemon Clone",
+		description: "Top-down monster training game in browswer",
+		deployLink: "https://mon-game.netlify.app",
+		github: "https://github.com/alexgeis/pokemon-game",
 	},
 	{
 		id: 3,
