@@ -22,7 +22,8 @@ import SubTracker from "../assets/cache-bandit.png";
 import etchSketch from "../assets/etch-sketch-screenshot.png";
 // import todoApp from "../assets/todo-app-screenshot.png";
 import pokemonGame from "../assets/pokemon-game-screenshot.png";
-import VibeLounge from "../assets/Vibe-Lounge-graph.png";
+// import VibeLounge from "../assets/Vibe-Lounge-graph.png";
+import audioPlayerImg from "../assets/audio-player.png";
 import WeatherDashboard from "../assets/weather-dashboard-screenshot.png";
 import TextEditorPWA from "../assets/JATE-PWA-screenshot.png";
 // import NoteTaker from "../assets/note-taker-app.png";
@@ -51,13 +52,12 @@ const cards = [
 	},
 	{
 		id: 3,
-		src: VibeLounge,
-		heading: "Vibe Lounge",
-		alt: "Vibe Lounge homepage",
-		description:
-			"Match your mood to your internet experience and display your mood history",
-		deployLink: "https://alexgeis.github.io/VIBE-LOUNGE/",
-		github: "https://github.com/alexgeis/VIBE-LOUNGE/",
+		src: audioPlayerImg,
+		heading: "Audio Player",
+		alt: "Music player homepage",
+		description: "Fully functional audio player in the browser",
+		deployLink: "https://music-player-ang.netlify.app",
+		github: "https://github.com/alexgeis/music-player",
 	},
 	{
 		id: 4,
@@ -86,6 +86,16 @@ const cards = [
 		deployLink: "alexgeis.github.io/Etch-a-Sketch/",
 		github: "https://github.com/alexgeis/Etch-a-Sketch",
 	},
+	// {
+	// id: 3,
+	// src: VibeLounge,
+	// heading: "Vibe Lounge",
+	// alt: "Vibe Lounge homepage",
+	// description:
+	// 	"Match your mood to your internet experience and display your mood history",
+	// deployLink: "https://alexgeis.github.io/VIBE-LOUNGE/",
+	// github: "https://github.com/alexgeis/VIBE-LOUNGE/",
+	// },
 ];
 
 const theme = createTheme();
