@@ -1,13 +1,14 @@
 import * as React from "react";
-// import AppBar from "@mui/material/AppBar";
 import Button from "@mui/material/Button";
-// import CameraIcon from "@mui/icons-material/PhotoCamera";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import CssBaseline from "@mui/material/CssBaseline";
 import Grid from "@mui/material/Grid";
+// unused MUI components
+// import AppBar from "@mui/material/AppBar";
+// import CameraIcon from "@mui/icons-material/PhotoCamera";
 // import Stack from "@mui/material/Stack";
 // import Box from "@mui/material/Box";
 // import Toolbar from "@mui/material/Toolbar";
